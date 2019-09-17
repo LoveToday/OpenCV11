@@ -15,3 +15,6 @@ morphologyEx(src, dest, CV_MOP_BLACKHAT, kernel)
 -int OPT - CV_MOP_OPEN/CV_MOP-CLOSE/CV_MOP_GRADIENT/CV_MOP_TOPHAT/CV_MOP_BLACKHAT 形态学操作类型
 
 int iteration 迭代次数，默认值是1
+
+
+形态学梯度 膨胀减去腐蚀 又称基本梯度
